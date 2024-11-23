@@ -21,7 +21,7 @@ function clearEntry() {
 function calculate() {
   const result = document.getElementById("result");
   try {
-    result.value = eval(result.value) || 0; // Safe calculation using eval
+    result.value = eval(result.value) || 0; 
   } catch {
     result.value = "Error";
   }
